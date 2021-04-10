@@ -1,0 +1,23 @@
+---
+title: "first presentation"
+author: "Gal_Anonim"
+date: "4/7/2021"
+output: ioslides_presentation
+---
+
+## My new slide
+
+***'Mtcars data plot'***
+
+```{r,echo=FALSE,fig.align='center',fig.cap="My figure"}
+plot(mtcars$wt, mtcars$mpg,xlab="Weight",ylab = "MPG")
+```
+
+## Monkey slide
+
+```{r,echo=FALSE,fig.align='center',fig.cap="source oysterworldwide.com",out.width="50%"}
+
+knitr::include_graphics("Project_SA_Monkey.jpg")
+
+```
+
